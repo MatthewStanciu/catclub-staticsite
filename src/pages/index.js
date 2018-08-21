@@ -45,7 +45,6 @@ export default () => (
           <ProjectFinish href="https://sideb-textgen.glitch.me" title="Side B Text Gen" desc="A pretty title and block quote generator that gives a nice touch to Medium articles" />
           <Break />
           <MiddleHello>You can do it, too!</MiddleHello>
-
         </Box>
       </CenteredBox>
     </Break>
