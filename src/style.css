@@ -1,0 +1,14 @@
+html {
+  background-color: black;
+  font-family: 'Averta';
+  color: white;
+}
+
+@font-face {
+  font-family: 'Averta';
+  src: url("../fonts/averta-regular.woff");
+}
+@font-face {
+  font-family: 'Averta-Bold';
+  src: url("../fonts/averta-bold.woff");
+}
