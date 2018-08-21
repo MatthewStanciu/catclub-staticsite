@@ -58,7 +58,7 @@ export default () => (
             CAT Club is a <Link target="_blank" href="https://hackclub.com" color="red">Hack Club</Link>,
             which is a network of student coding clubs in over 220 schools around the world! <strong>You're in good hands. </strong>
             We provide workshops that make it easy to get started, and we serve as mentors rather than lecturers. By the end of your
-            first meeting, you will have a fully working website. And that's just getting started.
+            first meeting, you will have a fully working website. Throughout the year, you'll go on to make amazing things!
           </Paragraph>
         </Box>
       </CenteredBox>
