@@ -62,10 +62,11 @@ export default () => (
             first meeting, you will have a fully working website. And that's just getting started.
           </Paragraph>
         </Box>
-
       </CenteredBox>
     </Break>
-
+    <Break/><Break/>
+    <Footer>Made with ❤️ by the CAT Club execs. </Footer>
+    <Footer><Link target="_blank" href="https://github.com/MatthewStanciu/catclub-staticsite" color="white">View on GitHub</Link></Footer>
   </React.Fragment>
 )
 
