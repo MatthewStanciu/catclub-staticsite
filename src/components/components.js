@@ -25,6 +25,16 @@ export const SmallerWrapper = Flex.extend.attrs({
   }
 `
 
+export const Paragraph = Text.extend.attrs()`
+  color: white;
+  display: inline-block;
+  text-align: left;
+  line-height: 1.5;
+  border-radius: 999px;
+  padding: 0 .5em;
+  margin-left: 2em;
+`
+
 export const Project = ({title, width, desc, href, ...props}) => (
     <Link target="_blank" href={href} color="black" {...props}>
       <StyledBox width={width} p={3} color='white' bg='black' {...props}>

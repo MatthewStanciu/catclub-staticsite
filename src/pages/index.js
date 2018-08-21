@@ -40,12 +40,32 @@ export default () => (
         <Box width={500}>
           <Subhead>Previous Projects</Subhead>
           <Project href="https://catclub-demo.glitch.me" title="CAT Club Demo" desc="Text a color and see it update live!" />
-          <Project href="https://instagram.com/anobot.wl" title="Anonbot" desc="An instagram bot that lets you anonymously post confessions and announcements to an Instagram page!" />
+          <Project href="https://instagram.com/anobot.wl" title="Anonbot" desc="An Instagram bot that lets you anonymously post confessions and announcements to an Instagram page!" />
           <Project href="https://github.com/wl-acsl/h-coin" title="H-Coin" desc="An almost working cryptocurrency built from scratch in 24 hours" />
           <ProjectFinish href="https://sideb-textgen.glitch.me" title="Side B Text Gen" desc="A pretty title and block quote generator that gives a nice touch to Medium articles" />
+          <Break />
+          <MiddleHello>You can do it, too!</MiddleHello>
+
         </Box>
       </CenteredBox>
     </Break>
+    <Break>
+      <CenteredBox>
+        <Box width={750}>
+          <Paragraph>CAT Club is aimed toward beginners. The proven hands-on learning environment
+            means that whether you are just getting started or you are super experienced, there is a place
+            for you at CAT Club.<br/><br/>
+
+            CAT Club is a <Link target="_blank" href="https://hackclub.com" color="red">Hack Club</Link>,
+            which is a network of student coding clubs in over 220 schools around the world! <strong>You're in good hands. </strong>
+            We provide workshops that make it easy to get started, and we serve as mentors rather than lecturers. By the end of your
+            first meeting, you will have a fully working website. And that's just getting started.
+          </Paragraph>
+        </Box>
+
+      </CenteredBox>
+    </Break>
+
   </React.Fragment>
 )
 
@@ -62,6 +82,11 @@ const Hello = Heading.extend.attrs({m: 0, fontSize: 70, textAlign: "left"})`
 const SmallerHello = Heading.extend.attrs({fontSize: 25, mr: 5, textAlign: "center"})`
   line-height: 1.5;
   color:#b2b2b2;
+  font-family: 'Averta-Bold';
+`
+const MiddleHello = Heading.extend.attrs({fontSize: 45, mr: 0, textAlign: "center"})`
+  line-height: 1.5;
+  color:white;
   font-family: 'Averta-Bold';
 `
 const Subhead = Heading.extend.attrs({f: 6, m: 0, fontSize: 30, textAlign: "center"})`
